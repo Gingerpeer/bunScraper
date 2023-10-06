@@ -1,4 +1,4 @@
-# signinbot
+# Simple Web Scraper written in TypeScript using the bun package manager
 
 To install dependencies:
 
