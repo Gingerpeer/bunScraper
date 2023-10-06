@@ -3,11 +3,11 @@ import puppeteer from 'puppeteer';
 const signIn = async () => {
 
   const url = "https://scrapeme.live/shop/"
-  const browser = await puppeteer.launch({ headless: 'new' }); // Launch browser (visible)
+  const browser = await puppeteer.launch({ headless: 'new' }); 
   const page = await browser.newPage();
 
   try {
-    await page.goto(url); // Replace with your application's login URL
+    await page.goto(url); 
 
     
     const images = await page.$$('img');
